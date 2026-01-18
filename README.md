@@ -34,6 +34,8 @@ origin  https://github.com/Novanz/3dd (push)
 git fetch origin
 ```
 
+**Note:** Replace `origin` with your remote name if you used a different name in step 1.
+
 ### 4. Pull changes from the remote (optional)
 
 If you want to merge changes from the remote repository:
@@ -42,7 +44,7 @@ If you want to merge changes from the remote repository:
 git pull origin main
 ```
 
-**Note:** Replace `main` with the appropriate branch name if different.
+**Note:** Replace `origin` with your remote name if you used a different name in step 1, and replace `main` with the appropriate branch name if different.
 
 ### Troubleshooting
 
